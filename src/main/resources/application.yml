@@ -1,0 +1,30 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url:jdbc: mysql://localhost:3306/test?characterEncoding=utf8&useSSL=false
+    username: root
+    password: Lxd970917
+  mail:
+    host: smtp.qq.com
+    username: 2061412232@qq.com
+    password: sztobsirosunbgcj
+    properties:
+      mail:
+        stmp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+    default-encoding: UTF-8
+mybatis:
+  mapper-locations: mapper/*Mapper.xml
+  type-aliases-package: com.qf.pojo
+alipay:
+  appid: 2021000116661636
+  apk: MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCWwawL/VTLern0w+JkpreSS3jMcsZSGjwchCe1P8dH3o7oDI/adphBESl45izU/nHnFKqq81Gd8o054Fg3Lj6aX9q4rvbNHh2sADvZLBRA0BmuuASJ0FAw1+1WnOX/8OnKqAnpgYIm7zz+x57lDT+RicySuSe1aZRuvB/3/h3aOfAVQRIosn5tVjz1Uh9d8wNQnENSprvSpkA8X5OA1ZTDvK5KI8RB3IV17T54SJSD6DdAnT18DxNUgeIvbmjAs2v9uc8i2lKy8T1f3YLvS7fORH+ARjdMttYgdkV4CuHXO0s0yeeEbkUd+4UxLeg3TWZQlAXRASz0qXjAhl8nOolnAgMBAAECggEAUXyd4l0sWFAd849t77mtwAXLZbckO3yywTctv2qZ7N7/n64qk4tHAOSl5hOEaBygtKcXGRAsLZPNglshU7JLZGYrc2gfPv/oSfBWaSzKRb42I5qT2Wof7kbIouhr6cvukvwBX5YBI8pszcpYuLZQhfpV+XjbXdOTx8coAIP63tlcPBZ5ReRJWLVd+g2/CQADdTZUWCVH8bZ4Ehjf37af8lVU1lnFnxaVy+9Iutvhspaq7/2bmDeTSiAQr12BuIOZlThXKtynmhGyk8WPMDjLTMqrDbhcYhscdqgyvMj0KH1s7JTKDN+UyTyUW5i7iYdU7I6EnpdsciWalsuYG8unAQKBgQDe0ebjTvVmh/iVWq6/it3H9RLK5uekszTEx9/QXCzeqN3aDUn92xhtu1Gl86b6lZsRVPKXcKCSzwMc/kjQV2QJGR11kHGyY4MawA64x2kq8J63KUbrBHpkXasOwKxU6HoFRrjXOJJDTseCTPJdbcw2k6UqV1vmtfcPtbbGqiRHhQKBgQCtNKXhZ/p/Sfipzh+byWCH+yX2Ho2Z2Ov6HwsUXhQ/Z/S/G+gkV8MESQZJWvjPPxCTuAjqzRXZFICoZ57hj23IAOz39Xlf22Nn9h95++OB9Nh8iwFOZ0ksfLCNK32lyD1NfTOWpNK+rnh6+EHZoQOgNz4Ny060fBSaGC3XGwHi+wKBgAN4p60w5LfVNHU3NXO8eRoNYl6Q3Fj/hbnvFziKxxQs80/bVyTCTg4flfUM57QNsp3BggoD8ix3VygTehTs150grAnR10OdM0Sua0xLpwLJPt/Bn943cqSvpOOU8tpbyNLeODD6K6UqzAbmpfv4ou7SvAb912uvuAqhnRhZPDl1AoGAB7Y+ZIjiqGQ8xCK/WYpf1+4gxJKbr2vvJdXYAnIl6KTSSugNMAEQV9KAiyeXyHKAZHNfQkUbYez9xYHHmzdtpegUpP2zB8eW53wX7rB+crzaHsF5r2n94hMzMTXshEMkJ50ZfO2dzIusJZ2EIRKAPNP42VhiCrszl6DX+ankLZ0CgYB4dBwPgNrCvCz+pKa3b9R55j6ONoXZMxwDbNTFvVYLXPA0dTDKjajUl+2ASwSG4pU3v01rt9fg28mHE7mAtwlcnPpTu8mZ07XyQi7nyybz+DP9T2MVCFOp0aYuxkhsmPF6olD4weV7Mce5HZbPDA+KwMkSVEhn4eW5R9HULjgm4g==
+  format: json
+  charset: utf-8
+  apuk: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwanbTZXGlnWh8bRyavj3UqWPG4sJam46r9ltXFoT/vHH4txfu7/lHmxTOKnuBJ/4VpzZEGad1HksamVkyfrVMpCzCIaXm86qSvcH4N1AmzWPHK9T04yyEHjW8V3MFRADuFjHL0c9XHiPwAk8QVsl8g1oWzdqrSoiywD5HogQqle0hTGWhjiO3y4lKdV3gB5zQxBkIas8QhNJW/K/rlxT/eERqE6Jdro9TWAN4lFcPYT2LrDwLjMeKEeeqydoDx+yuqmGz2nSxplXrFpMShcy2G9vcn4dvQexkaTj7GHs64VFTnbm7TMO4Le361Jn6I/YjUd1TOquNv8JLaNj8m7E+QIDAQAB
+  singtype: RSA2
